@@ -1,5 +1,4 @@
 import argparse
-import gradio as gr
 import requests
 import random
 import os
