@@ -24,17 +24,7 @@ PITCH_ALGO_OPT = [
     "rmvpe",
     "rmvpe+",
 ]
-UVR_5_MODELS = [
-    {"model_name": "BS-Roformer-Viperx-1297", "checkpoint": "model_bs_roformer_ep_317_sdr_12.9755.ckpt"},
-    {"model_name": "MDX23C-InstVoc HQ 2", "checkpoint": "MDX23C-8KFFT-InstVoc_HQ_2.ckpt"},
-    {"model_name": "Kim Vocal 2", "checkpoint": "Kim_Vocal_2.onnx"},
-    {"model_name": "5_HP-Karaoke", "checkpoint": "5_HP-Karaoke-UVR.pth"},
-    {"model_name": "UVR-DeNoise by FoxJoy", "checkpoint": "UVR-DeNoise.pth"},
-    {"model_name": "UVR-DeEcho-DeReverb by FoxJoy", "checkpoint": "UVR-DeEcho-DeReverb.pth"},
-]
-MODELS = [
-    {"model": "model.pth", "index": "model.index", "model_name": "Test Model"},
-]
+
 
 os.makedirs(TEMP_DIR, exist_ok=True)
 
