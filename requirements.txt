@@ -1,0 +1,12 @@
+git+https://huggingface.co/datasets/soiz1/omegaconf
+torch==2.2.0
+infer-rvc-python==1.1.0
+pedalboard
+noisereduce
+numpy==1.23.5
+audio-separator[gpu]
+scipy
+onnxruntime-gpu
+samplerate
+transformers
+tqdm
